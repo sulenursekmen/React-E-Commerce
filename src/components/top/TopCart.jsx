@@ -18,6 +18,7 @@ const TopCart = () => {
           {
          Tdata.map((value,index)=>{
             return (
+              <>
                 <div className="topCat box product" key={index}>
                 <div className='nametop d_flex'>
                   <span className='tleft'>{value.para}</span>
@@ -28,6 +29,7 @@ const TopCart = () => {
                 </div>
               </div>
               
+              </>
             )
          })
       }
